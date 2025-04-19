@@ -1,0 +1,56 @@
+.navImg {
+    height: 35px;
+    width: 35px;
+    padding: 15px;
+}
+
+.navbar ul {
+    list-style: none;
+    float: right;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 8px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: gray;
+}
+
+.navbar {
+    background-color: #ddd;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.active {
+    color: blue !important;
+}
+
+.cover {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.aboutSection,
+.productSection {
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.aboutSection p {
+    color: gray;
+}
+
+.productSection img {
+    height: 200px;
+    width: 33%;
+}
